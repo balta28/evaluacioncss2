@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorform {
+    background-color: azure;
+    width: 30%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+._input label {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+
+._input input {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contenedorform h3 {
+    padding: 15px;
+    text-align: center;
+
+}
+
+button {
+
+    text-align: center;
+    width: 30%;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.buttonazul {
+    background-color: azure;
+    text-align: center;
+}
+
+.buttonazul:hover {
+    background-color: blue;
+    color: azure;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
